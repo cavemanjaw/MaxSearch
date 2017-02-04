@@ -8,6 +8,7 @@ int main()
 	std::cout << "Provide table length\n";
 	std::cin >> tableLength;
 	int* table = new int[tableLength];
+	std::cout << "Provide table elements\n";
 
 	for (int i = 0; i < tableLength; ++i)
 	{
